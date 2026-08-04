@@ -134,7 +134,8 @@ h3 {
 
 .biography-content .timeline h3,
 .biography-content .plain-block h3,
-.professional-services-content #student-supervision h3 {
+.professional-services-content #student-supervision h3,
+.research-content .highlight h3 {
   color: var(--ink);
 }
 
@@ -233,7 +234,8 @@ h4 {
   text-transform: uppercase;
 }
 
-.content > h1::first-letter {
+.content > h1:not(.wordmark-title)::first-letter,
+.content > h1 .title-word::first-letter {
   font-size: 1.18em;
 }
 
