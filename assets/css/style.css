@@ -248,6 +248,20 @@ h4 {
   font-weight: 700;
 }
 
+.biography-content .timeline p,
+.biography-content .plain-block p {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  column-gap: 20px;
+  align-items: baseline;
+}
+
+.biography-content .date {
+  color: var(--ink);
+  font-weight: 400;
+  text-align: right;
+}
+
 .chip-list {
   display: flex;
   flex-wrap: wrap;
