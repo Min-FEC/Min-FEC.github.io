@@ -83,10 +83,6 @@ a:hover {
 }
 
 .hero {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) 280px;
-  gap: 40px;
-  align-items: end;
   padding: 72px 0 46px;
   border-bottom: 1px solid var(--line);
 }
@@ -286,6 +282,19 @@ h4 {
   margin-bottom: 10px;
 }
 
+.supervision-list > li {
+  margin-bottom: 16px;
+}
+
+.supervision-list ul {
+  margin: 4px 0 0;
+  padding-left: 22px;
+}
+
+.supervision-list ul li {
+  margin-bottom: 2px;
+}
+
 .columns {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -305,7 +314,6 @@ h4 {
 
 @media (max-width: 820px) {
   .header-grid,
-  .hero,
   .columns {
     grid-template-columns: 1fr;
   }
