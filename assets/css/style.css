@@ -235,7 +235,8 @@ h4 {
 }
 
 .content > h1:not(.wordmark-title)::first-letter,
-.content > h1 .title-word::first-letter {
+.content > h1 .title-word::first-letter,
+.eyebrow.wordmark-title .title-word::first-letter {
   font-size: 1.18em;
 }
 
