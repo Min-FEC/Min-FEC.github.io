@@ -132,6 +132,12 @@ h3 {
   line-height: 1.35;
 }
 
+.biography-content .timeline h3,
+.biography-content .plain-block h3,
+.professional-services-content #student-supervision h3 {
+  color: var(--ink);
+}
+
 h4 {
   margin: 20px 0 8px;
   font-size: 16px;
