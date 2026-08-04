@@ -18,7 +18,7 @@ body {
   margin: 0;
   background: var(--bg);
   color: var(--ink);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 16px;
   line-height: 1.65;
 }
@@ -98,6 +98,13 @@ a:hover {
   font-weight: 700;
   letter-spacing: 0;
   text-transform: uppercase;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: "Times New Roman", Times, serif;
 }
 
 h1,
