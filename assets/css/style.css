@@ -263,6 +263,29 @@ h4 {
   padding: 22px;
 }
 
+.research-content .highlight {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(260px, 0.9fr);
+  gap: 24px;
+  align-items: start;
+}
+
+.highlight-copy {
+  min-width: 0;
+}
+
+.highlight-figure {
+  display: grid;
+  place-items: center;
+  min-height: 260px;
+  margin: 0;
+  border: 1px dashed var(--line);
+  background: #f7f7f7;
+  color: var(--muted);
+  font-size: 15px;
+  aspect-ratio: 4 / 3;
+}
+
 .timeline p,
 .plain-block p,
 .highlight p {
@@ -356,6 +379,14 @@ h4 {
 
   .nav {
     justify-content: flex-start;
+  }
+
+  .research-content .highlight {
+    grid-template-columns: 1fr;
+  }
+
+  .highlight-figure {
+    min-height: 220px;
   }
 
   .hero {
